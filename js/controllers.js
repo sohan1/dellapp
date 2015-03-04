@@ -100,6 +100,8 @@ angular.module('starter.controllers', ['templateservicemod'])
 
 .controller('PostfbCtrl', function ($scope, $stateParams) {})
 
+.controller('SearchCtrl', function ($scope, $stateParams) {})
+
 .controller('PostinfofbCtrl', function ($scope, $stateParams) {})
 
 .controller('SuggestedpostCtrl', function ($scope, TemplateService) {

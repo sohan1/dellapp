@@ -162,10 +162,15 @@ angular.module('starter', ['ionic', 'starter.controllers', 'templateservicemod']
         /*Simple Pages*/
 
     .state('login', {
-        url: "/login",
-        templateUrl: "templates/login.html",
-        controller: 'LoginCtrl'
-    })
+            url: "/login",
+            templateUrl: "templates/login.html",
+            controller: 'LoginCtrl'
+        })
+        .state('search', {
+            url: "/search",
+            templateUrl: "templates/search.html",
+            controller: 'SearchCtrl'
+        })
 
     .state('welcome', {
         url: "/welcome",
